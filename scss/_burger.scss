@@ -1,0 +1,57 @@
+.bg{
+    color: white;
+    padding: 15px;
+    margin: 0 40vw 0 10px;
+    font-size: 2.3rem;
+    cursor: pointer;
+    background: none;
+    position: fixed;
+    top: 0;
+    border: none;
+    transition: all 0.5s;
+    @media (max-width:800px) {
+        font-size: 1.5rem;
+        margin-top: 17px;
+        margin-left: 3px;
+        &:hover{
+            font-size: 1.7rem;
+        }
+    }
+    &:hover{
+        font-size: 2.4rem;
+        color: grey;
+    }
+}
+
+.burger{
+    background: #000;
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    top: 0;
+    display: block;
+    left: -20vw;
+    padding-top: 100px;
+    transition: all 0.5s;
+    p{
+        color: white;
+        padding: 15px;
+        font-size: 2.5rem;
+        margin: 10px;
+        cursor: pointer;
+        @media (max-width:430px) {
+            font-size: 0.7rem;
+            margin-left: 0;
+            padding-left: 5px;
+        }
+        @media (max-width: 600px) and (min-width: 431px) {
+            font-size: 0.7rem;
+        }
+        @media (min-width: 601px) and (max-width: 767px) {
+            font-size: 1rem;
+        }
+        @media (min-width: 768px) and (max-width: 1300px) {
+            font-size: 1.5rem;
+        }
+    }
+}
